@@ -2,8 +2,8 @@
     <string name="app_name">NewApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">บ้านสุขใจกาแฟสด</string>
-    <string name="aboutme">About me</string>
-    <string name="Contact">Contact</string>
+    <string name="aboutme">Menu</string>
+    <string name="Contact">Order</string>
     <string name="Email">E-mail</string>
     <string name="Name">Name</string>
     <string name="AddContact">Add</string>
