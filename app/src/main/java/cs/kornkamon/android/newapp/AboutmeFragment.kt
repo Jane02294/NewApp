@@ -9,7 +9,6 @@ import androidx.navigation.ui.NavigationUI
 import cs.kornkamon.android.newapp.databinding.FragmentAboutmeBinding
 
 class AboutmeFragment : Fragment() {
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
