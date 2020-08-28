@@ -14,10 +14,19 @@
         tools:context=".ContactFragment">
 
         <!-- TODO: Update blank fragment layout -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#9FFFD600"
             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName"
@@ -25,6 +34,13 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Menu"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/editTextTextPersonPhone"
@@ -35,16 +51,20 @@
 
             <Button
                 android:id="@+id/buttonInsert"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:background="#FF6D00"
                 android:onClick="@{()->contactViewModel.onContactAdd()}"
-                android:text="Button" />
+                android:text="@string/AddContact"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/textview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@{contactViewModel.contactString}" />
+                android:background="#D5FFD600"
+                android:text="@{contactViewModel.contactString}"
+                android:textSize="16sp" />
 
         </LinearLayout>
 
